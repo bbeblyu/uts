@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ban dan Rem Motor"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_apa_itu_ban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa itu Ban?"
+            android:textColor="#D31212"
+            android:backgroundTint="@android:color/white"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btn_apa_itu_rem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa itu Rem?"
+            android:textColor="#DC0F0F"
+            android:backgroundTint="@android:color/white"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:elevation="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/img_1"/>
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/img_2"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ban dan rem adalah dua komponen penting dalam kendaraan. Ban berfungsi sebagai penghubung antara kendaraan dan permukaan jalan, memberikan traksi dan kenyamanan. Sementara itu, rem berperan untuk memperlambat atau menghentikan kendaraan dengan cara mengubah energi kinetik menjadi energi panas melalui gesekan."
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saran Perawatan"
+        android:textColor="#DB1111"
+        android:backgroundTint="@android:color/white"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Untuk menjaga performa kendaraan, ban harus diperiksa tekanan udaranya secara rutin dan diganti jika aus. Rem juga harus dicek secara berkala, termasuk kampas rem dan minyak rem, agar tetap berfungsi dengan baik. \n Tips tambahannya adalah pertama gunakan ban sesuai dengan rekomendasi pabrik untuk keamanan dan kenyamanan. Kedua pastikan rem cakram atau tromol tidak aus agar pengereman tetap optimal. Ketiga hindari pengereman mendadak yang berlebihan untuk mengurangi keausan pada rem dan ban."
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingTop="8dp"/>
+</LinearLayout>
